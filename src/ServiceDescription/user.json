@@ -1,0 +1,28 @@
+{
+  "baseUrl": "http://jsonplaceholder.typicode.com",
+  "operations": {
+    "list": {
+      "httpMethod": "GET",
+      "uri": "/posts/{userId}",
+      "description": "Returns currency exchange",
+      "responseModel": "ResponseUser",
+      "parameters": {
+        "userId": {
+          "type": "string",
+          "location": "uri",
+          "required": true
+        }
+      }
+    }
+  },
+  "models": {
+    "ResponseUser": {
+      "type": "array",
+      "location": "json",
+      "name": "user",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

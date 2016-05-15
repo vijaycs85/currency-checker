@@ -1,0 +1,38 @@
+{
+  "baseUrl": "https://currency-exchange.p.mashape.com/",
+  "operations": {
+    "list": {
+      "httpMethod": "GET",
+      "uri": "/exchange",
+      "description": "Returns currency exchange",
+      "responseModel": "ResponseObject",
+      "parameters": {
+        "from": {
+          "type": "string",
+          "location": "query",
+          "required": true
+        },
+        "q": {
+          "type": "string",
+          "location": "query",
+          "required": true
+        },
+        "to": {
+          "type": "string",
+          "location": "query",
+          "required": true
+        }
+      }
+    }
+  },
+  "models": {
+    "ResponseObject": {
+      "type": "array",
+      "location": "json",
+      "name": "conversion",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "require": {
+    "guzzlehttp/guzzle-services": "0.5.*",
+    "gimler/guzzle-description-loader": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CurrencyChecker\\": "src/"
+    }
+  }
+}
