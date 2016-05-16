@@ -1,4 +1,17 @@
 {
+  "name": "vijaycs85/CurrencyChecker",
+  "description": "Currency checker implemented with Guzzle + service description",
+  "keywords":     ["Guzzle", "service description", "REST client", "development", "testing", "documentation"],
+  "homepage":     "http://behat.org/",
+  "type":         "guzzle-client",
+  "license":      "MIT",
+  "authors":      [
+    {
+      "name":      "Vijaya Chandran Mani",
+      "email":     "vijaycs85@gmail.com",
+      "homepage":  "http://www.vijaycs85.com"
+    }
+  ],
   "require": {
     "guzzlehttp/guzzle-services": "0.5.*",
     "gimler/guzzle-description-loader": "*"
