@@ -1,5 +1,5 @@
 {
-  "name": "vijaycs85/CurrencyChecker",
+  "name": "vijaycs85/currency-checker",
   "description": "Currency checker implemented with Guzzle + service description",
   "keywords":     ["Guzzle", "service description", "REST client", "development", "testing", "documentation"],
   "homepage":     "http://behat.org/",
